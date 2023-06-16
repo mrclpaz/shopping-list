@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #2b3648;
+}
+
+#header{
+    background-color: white;
+    width: 700px;
+    min-height: 500px;
+    margin: 200px auto;
+    text-align:center;
+    padding: 40px 0;
+    border-radius: 20px;
+    position: relative;
+}
+
+h1, h2 {
+    text-align:center;
+    color:#2b3648;
+    margin-bottom: 20px;
+}
+
+#inputText {
+    border: none;
+    border-bottom: 1px solid #2b3648;
+    padding: 8px;
+    width: 200px;
+    margin: 20px;
+    font-size: 1rem;
+}
+
+#inputText:focus {
+    width: 40%;
+    transition: 0.5s;
+}
+
+button {
+    display:inline-block;
+    background-color: #2b3648;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #3e4e67;
+}
+
+
+#list {
+    text-decoration:none;
+    list-style-type:none;
+    margin:0;
+    padding:0;
+}
+
+li {
+    text-decoration:none;
+    padding: 10px;
+    font-weight:bold;
+}
+ 
+li:nth-child(odd) {
+    background-color: rgb(224, 247, 244);
+}
+
+li:nth-child(even) {
+   background-color:rgb(255, 255, 255);
+}
+
+.check {
+    text-decoration: line-through;
+    background-color: rgb(105, 189, 129) !important;
+    color:white;
+}
+
+span.close {
+    position: absolute;
+    right: 0;
+    padding-right: 10px;
+}
